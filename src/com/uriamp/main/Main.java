@@ -9,7 +9,10 @@ public class Main {
     music1.setTitle("Damage Inc.");
     music1.setGenre("Metal");
 
-    System.out.println(music1.getAlbum());
+    music1.like();
+    music1.like();
+
+    System.out.println(music1.getLikes());
 
   }
 }
